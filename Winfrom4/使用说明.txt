@@ -1,0 +1,19 @@
+华夏示范银行管理系统
+====================
+
+一、运行方式
+  dotnet run --project BankManagementSystem.csproj
+
+二、演示账号
+  超级管理员  superadmin / superadmin2 / superadmin3（密码 admin123）
+  管理员      admin ~ admin8、manager1~3、teller1~2、auditor（密码均为 admin123）
+  客户        zhangsan / lisi / wangwu（密码 123456）
+              user004 ~ user100 / 123456（共 100 名客户）
+
+三、数据与日志位置
+  数据库：%LocalAppData%\BankManagementSystem\bank.db
+  日志目录：%LocalAppData%\BankManagementSystem\Logs\
+
+四、界面说明
+  顶部图标导航切换页面；各列表页支持横向/纵向滚动条查看全部信息
+  登录后可设置无操作自动登出时间
